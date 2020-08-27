@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3308/DB_CPU?serverTimezone=UTC
+    username: Artem
+    password: waterpolo298
+    continueOnError: true
+    initialize: false
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: create
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        hbm2ddl:
+          auto: create
+        temp:
+          use_jdbc_metadata_defaults: false
