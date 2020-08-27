@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 @Entity
-@Table(name = "TAB_CPU")
+@Table(name = "tab_cpu")
 public class Data {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
