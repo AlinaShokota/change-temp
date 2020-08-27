@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://http://10.17.80.126/phpmyadmin/DB_CPU?serverTimezone=UTC
+    url: jdbc:mysql://10.17.80.126/phpmyadmin/DB_CPU?serverTimezone=UTC
     username: Artem
     password: waterpolo298
     continueOnError: true
