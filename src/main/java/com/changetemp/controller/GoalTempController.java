@@ -18,7 +18,7 @@ public class GoalTempController {
     GoalTemperatureService goalTemperatureService;
 
     @PostMapping("/save")
-    public ResponseEntity setGoalTemp(@RequestBody Float temp){
+    public ResponseEntity setGoalTemp(@RequestBody Integer temp){
         System.out.println("****************************8");
         System.out.println(temp);
         GoalTemperature goalTemperature = new GoalTemperature(LocalDate.now(), temp, LocalTime.now());
